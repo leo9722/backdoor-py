@@ -1,8 +1,8 @@
 import	subprocess as sp,sys
 
 def mall():
-	HOST = '192.168.153.133'
-	PORT = 9009
+	HOST = '$IP'
+	PORT = $port
 
 	client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 	client.connect((HOST, PORT))
